@@ -37,6 +37,7 @@ Code của series TikTok **"Tự Học Robot Tự Hành"**, đi theo giáo trìn
 | `tapXX/bai_tap/` | 📝 Bài tập để bạn tự viết code, kèm `kiem_tra.py` tự chấm ✅ / ❌ |
 | `tapXX/*.ipynb` | Notebook làm bài ngay trên Google Colab, không cần cài gì |
 | `tapXX/ws/` | Các tập chạy ROS 2 thật trong Docker (1.7, 3.7, 3.9) |
+| `chung/` | Bộ chấm dùng chung cho mọi bài tập |
 
 ## Cách học một tập
 
@@ -67,26 +68,26 @@ python -X utf8 tap02/sim/robot_dau_tien.py     # thử tập 0.2: robot đầu t
 
 ## Danh sách tập
 
-📝 = có bài tập tự chấm và notebook Colab (1/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
+📝 = có bài tập tự chấm và notebook Colab (9/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
 
 ### Mùa 0 · Khởi động
 
 | Tập | Nội dung | Giáo trình | Học thế nào | Thư mục |
 |---|---|---|---|---|
-| **0.2** | Robot đầu tiên trong mô phỏng | Giới thiệu | ▶️ Chạy & đổi tham số | [`tap02/`](tap02/) |
-| **0.3** | ROS 2: hệ thần kinh của robot | Giới thiệu | ▶️ Chạy & đổi tham số | [`tap03/`](tap03/) |
+| **0.2** | Robot đầu tiên trong mô phỏng | Giới thiệu | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap02/tap02_robot_dau_tien.ipynb) | [`tap02/`](tap02/) |
+| **0.3** | ROS 2: hệ thần kinh của robot | Giới thiệu | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap03/tap03_ros_mini.ipynb) | [`tap03/`](tap03/) |
 
 ### Mùa 1 · Chuyển động & điều khiển
 
 | Tập | Nội dung | Giáo trình | Học thế nào | Thư mục |
 |---|---|---|---|---|
-| **1.1** | Vì sao xe không đi ngang được? | Ch.1 | ▶️ Chạy & đổi tham số | [`tap11/`](tap11/) |
-| **1.2** | Nhắm mắt mà chạy: điều khiển vòng hở | Ch.2 | ▶️ Chạy & đổi tham số | [`tap12/`](tap12/) |
+| **1.1** | Vì sao xe không đi ngang được? | Ch.1 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap11/tap11_khong_di_ngang.ipynb) | [`tap11/`](tap11/) |
+| **1.2** | Nhắm mắt mà chạy: điều khiển vòng hở | Ch.2 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap12/tap12_vong_ho.ipynb) | [`tap12/`](tap12/) |
 | **1.3** | PID: thuật toán quan trọng nhất | Ch.3 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap13/tap13_pid.ipynb) | [`tap13/`](tap13/) |
-| **1.4** | Bám quỹ đạo: robot chạy hình số 8 | Ch.3 | ▶️ Chạy & đổi tham số | [`tap14/`](tap14/) |
-| **1.5** | Tìm đường như Google Maps: A* | Ch.4 | ▶️ Chạy & đổi tham số | [`tap15/`](tap15/) |
-| **1.6** | Tìm đường bằng may rủi: RRT & PRM | Ch.4 | ▶️ Chạy & đổi tham số | [`tap16/`](tap16/) |
-| **1.7** | Tổng kết Mùa 1: tự đi từ A đến B | Ch.1–4 | ▶️ Chạy & đổi tham số | [`tap17/`](tap17/) |
+| **1.4** | Bám quỹ đạo: robot chạy hình số 8 | Ch.3 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap14/tap14_bam_quy_dao.ipynb) | [`tap14/`](tap14/) |
+| **1.5** | Tìm đường như Google Maps: A* | Ch.4 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap15/tap15_a_sao.ipynb) | [`tap15/`](tap15/) |
+| **1.6** | Tìm đường bằng may rủi: RRT & PRM | Ch.4 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap16/tap16_rrt.ipynb) | [`tap16/`](tap16/) |
+| **1.7** | Tổng kết Mùa 1: tự đi từ A đến B | Ch.1–4 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap17/tap17_a_den_b.ipynb) | [`tap17/`](tap17/) |
 
 ### Mùa 2 · Nhận thức (thị giác)
 

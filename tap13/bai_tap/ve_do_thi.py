@@ -8,7 +8,8 @@ import sys
 from pathlib import Path
 
 import matplotlib
-matplotlib.use("Agg")
+if "ipykernel" not in sys.modules:
+    matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "sim"))
@@ -43,6 +44,7 @@ def ve(PID, ra="ket_qua.png"):
     ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.17), ncol=2, facecolor="#111827", edgecolor="#334155", labelcolor="#e2e8f0", fontsize=9.5)
     fig.tight_layout()
     fig.savefig(ra, facecolor=fig.get_facecolor())
+    plt.close(fig)
     print("đã lưu", ra)
 
 
