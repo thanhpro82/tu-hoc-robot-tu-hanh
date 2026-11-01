@@ -68,7 +68,7 @@ python -X utf8 tap02/sim/robot_dau_tien.py     # thử tập 0.2: robot đầu t
 
 ## Danh sách tập
 
-📝 = có bài tập tự chấm và notebook Colab (18/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
+📝 = có bài tập tự chấm và notebook Colab (27/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
 
 ### Mùa 0 · Khởi động
 
@@ -107,15 +107,15 @@ python -X utf8 tap02/sim/robot_dau_tien.py     # thử tập 0.2: robot đầu t
 
 | Tập | Nội dung | Giáo trình | Học thế nào | Thư mục |
 |---|---|---|---|---|
-| **3.1** | "Tôi đang ở đâu?": robot nghĩ bằng xác suất | Ch.11 | ▶️ Chạy & đổi tham số | [`tap31/`](tap31/) |
-| **3.2** | Kalman Filter dễ hiểu nhất | Ch.11 | ▶️ Chạy & đổi tham số | [`tap32/`](tap32/) |
-| **3.3** | EKF & UKF: Kalman cho thế giới cong | Ch.12 | ▶️ Chạy & đổi tham số | [`tap33/`](tap33/) |
-| **3.4** | Particle Filter: ngàn phỏng đoán | Ch.12 | ▶️ Chạy & đổi tham số | [`tap34/`](tap34/) |
-| **3.5** | Định vị trên bản đồ có sẵn | Ch.13 | ▶️ Chạy & đổi tham số | [`tap35/`](tap35/) |
-| **3.6** | SLAM: con gà hay quả trứng? | Ch.14 | ▶️ Chạy & đổi tham số | [`tap36/`](tap36/) |
-| **3.7** | Robot vẽ bản đồ nhà tôi | Ch.14 | ▶️ Chạy & đổi tham số | [`tap37/`](tap37/) |
-| **3.8** | Kết hợp cảm biến & theo dõi vật thể | Ch.15 | ▶️ Chạy & đổi tham số | [`tap38/`](tap38/) |
-| **3.9** | Tổng kết Mùa 3: tự dẫn đường trong nhà | Ch.11–15 | ▶️ Chạy & đổi tham số | [`tap39/`](tap39/) |
+| **3.1** | "Tôi đang ở đâu?": robot nghĩ bằng xác suất | Ch.11 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap31/tap31_bayes.ipynb) | [`tap31/`](tap31/) |
+| **3.2** | Kalman Filter dễ hiểu nhất | Ch.11 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap32/tap32_kalman.ipynb) | [`tap32/`](tap32/) |
+| **3.3** | EKF & UKF: Kalman cho thế giới cong | Ch.12 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap33/tap33_ekf_ukf.ipynb) | [`tap33/`](tap33/) |
+| **3.4** | Particle Filter: ngàn phỏng đoán | Ch.12 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap34/tap34_hat.ipynb) | [`tap34/`](tap34/) |
+| **3.5** | Định vị trên bản đồ có sẵn | Ch.13 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap35/tap35_mcl.ipynb) | [`tap35/`](tap35/) |
+| **3.6** | SLAM: con gà hay quả trứng? | Ch.14 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap36/tap36_slam.ipynb) | [`tap36/`](tap36/) |
+| **3.7** | Robot vẽ bản đồ nhà tôi | Ch.14 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap37/tap37_slam_toolbox.ipynb) | [`tap37/`](tap37/) |
+| **3.8** | Kết hợp cảm biến & theo dõi vật thể | Ch.15 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap38/tap38_theo_doi.ipynb) | [`tap38/`](tap38/) |
+| **3.9** | Tổng kết Mùa 3: tự dẫn đường trong nhà | Ch.11–15 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap39/tap39_nav2.ipynb) | [`tap39/`](tap39/) |
 
 ### Mùa 4 · Ra quyết định & học
 
