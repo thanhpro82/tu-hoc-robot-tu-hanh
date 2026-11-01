@@ -68,7 +68,7 @@ python -X utf8 tap02/sim/robot_dau_tien.py     # thử tập 0.2: robot đầu t
 
 ## Danh sách tập
 
-📝 = có bài tập tự chấm và notebook Colab (27/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
+📝 = có bài tập tự chấm và notebook Colab (31/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
 
 ### Mùa 0 · Khởi động
 
@@ -121,10 +121,10 @@ python -X utf8 tap02/sim/robot_dau_tien.py     # thử tập 0.2: robot đầu t
 
 | Tập | Nội dung | Giáo trình | Học thế nào | Thư mục |
 |---|---|---|---|---|
-| **4.1** | Bộ não hành vi: máy trạng thái | Ch.16 | ▶️ Chạy & đổi tham số | [`tap41/`](tap41/) |
-| **4.2** | Ra quyết định khi tương lai bất định | Ch.17 | ▶️ Chạy & đổi tham số | [`tap42/`](tap42/) |
-| **4.3** | Quy hoạch động: nhìn trước mọi nước đi | Ch.17 | ▶️ Chạy & đổi tham số | [`tap43/`](tap43/) |
-| **4.4** | Học tăng cường: robot học từ thất bại | Ch.18 | ▶️ Chạy & đổi tham số | [`tap44/`](tap44/) |
+| **4.1** | Bộ não hành vi: máy trạng thái | Ch.16 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap41/tap41_fsm.ipynb) | [`tap41/`](tap41/) |
+| **4.2** | Ra quyết định khi tương lai bất định | Ch.17 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap42/tap42_mdp.ipynb) | [`tap42/`](tap42/) |
+| **4.3** | Quy hoạch động: nhìn trước mọi nước đi | Ch.17 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap43/tap43_qhd.ipynb) | [`tap43/`](tap43/) |
+| **4.4** | Học tăng cường: robot học từ thất bại | Ch.18 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap44/tap44_qlearn.ipynb) | [`tap44/`](tap44/) |
 | **4.5** | Deep RL: luyện robot trong mô phỏng | Ch.18 | ▶️ Chạy & đổi tham số | [`tap45/`](tap45/) |
 | **4.6** | Học bắt chước: robot học từ người lái | Ch.19 | ▶️ Chạy & đổi tham số | [`tap46/`](tap46/) |
 | **4.7** | Tương lai: Physical AI & robot nền tảng | Prospects | ▶️ Chạy & đổi tham số | [`tap47/`](tap47/) |
