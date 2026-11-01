@@ -1,0 +1,20 @@
+$ python3 robot_node.py &
+[INFO] [1792917006.183690826] [robot]: Robot sẵn sàng, đang nghe /cmd_vel
+$ ros2 node list
+/robot
+$ ros2 topic list
+/cmd_vel
+/parameter_events
+/pose
+/rosout
+$ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angular: {z: 1.0}}"
+$ ros2 topic echo /pose --once
+x: 0.03577186167094566
+y: 0.9988896763077438
+theta: 3.0799999999999783
+---
+$ ros2 topic echo /pose --once
+x: -0.14439365143357402
+y: 0.022058244814793165
+theta: 5.989999999999917
+---

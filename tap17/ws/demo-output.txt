@@ -1,0 +1,15 @@
+$ ros2 run robot & planner
+[INFO] [1793007230.147221253] [robot]: Robot ở (0.12, 0.38), bánh phải yếu, đang nghe /cmd_vel
+[INFO] [1793007230.231696422] [planner]: A*: mở 133 ô, đường 26 ô dài 6.87 m -> làm mượt 208 điểm, dài 6.74 m
+$ ros2 node list
+/planner
+/robot
+$ ros2 topic list
+/cmd_vel
+/parameter_events
+/path
+/pose
+/rosout
+$ python3 controller_node.py
+[INFO] [1793007238.367951983] [controller]: Nhận đường dài 6.74 m, dự kiến chạy 23.5 s
+[INFO] [1793007261.830879259] [controller]: TỚI ĐÍCH sau 23.5 s | sai số lớn nhất 2.7 cm | trung bình 0.6 cm | cách đích 0.3 cm

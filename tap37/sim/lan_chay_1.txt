@@ -1,0 +1,11 @@
+Lần chạy 1 (28/10/2026) - slam_toolbox với thông số mặc định về khép vòng (loop_search_maximum_distance 3,0,
+chưa siết loop_match_minimum_response_fine / chain_size), căn hộ chưa thêm cột, kệ, ghế dài.
+Kết quả (output thật của phan_tich.py trước khi lần chạy 2 ghi đè thư mục out/):
+  Thời gian 79,1 s · quãng đường thật 21,8 m · 16 ảnh bản đồ · số lần bộ giải Ceres chạy: 3
+  Odometry: cuối lệch 0,72 m, lớn nhất 0,72 m, trung bình 0,39 m
+  slam_toolbox: cuối lệch 21,1 cm, lớn nhất 392,5 cm, trung bình 52,9 cm
+  Điểm quét rơi đúng tường (±10 cm): ghép theo odometry 44,7% · theo slam_toolbox 83,5%
+  Bản đồ slam_toolbox: 3326 ô tường, 30,1% nằm đúng tường thật
+Diễn biến: t ≈ 52 s robot ở phòng trên trái, slam_toolbox khép vòng nhầm với phòng xuất phát (dưới trái), lệch 3,84 m;
+t ≈ 61-67 s tự kéo về (0,81 m rồi 0,21 m) nhưng các lần quét lúc nhầm vẫn nằm lại trên bản đồ thành "phòng ma".
+Ảnh chồng bản đồ lên tường thật: remotion/public/ep37/lan1.png

@@ -1,0 +1,4 @@
+{"N": 30, "thay_A": 36.0, "thay_B": 71.6, "mat_A": 8.2, "mat_B": 1.5, "bo_cuoc_A": 5.3, "B_chet": 30, "B_t_chet": 95.7, "B_kc_doc": 4.16, "C_chet": 0, "C_pin_min": 12.3, "C_sac": 2.0, "mui_phang": 9, "mui_phan_cap": 7, "bang_robot": [5, 6, 30], "bang_cua": [20, 24, 480], "bang_den": [40, 48, 1920]}
+A: [(6.1, 'TUAN_TRA', 'THAY', 'DUOI'), (10.3, 'DUOI', 'KHONG_THAY', 'TUAN_TRA'), (37.6, 'TUAN_TRA', 'THAY', 'DUOI'), (42.6, 'DUOI', 'KHONG_THAY', 'TUAN_TRA')]
+B chết: 93.0 4.51
+C: [(18.3, 'TIM', 'HET_GIO', 'TUAN_TRA'), (72.3, 'DUOI', 'PIN_YEU', 'VE_SAC'), (79.2, 'VE_SAC', 'TOI_DOC', 'SAC'), (98.2, 'SAC', 'DAY_PIN', 'TUAN_TRA')]

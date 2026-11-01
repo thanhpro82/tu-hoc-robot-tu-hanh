@@ -1,0 +1,12 @@
+sach 0 {'toi': 0.86, 'va': 0.136, 'het_gio': 0.004} {'toi': 0.696, 'va': 0.288, 'het_gio': 0.016}
+sach 1 {'toi': 0.902, 'va': 0.075, 'het_gio': 0.023} {'toi': 0.784, 'va': 0.14, 'het_gio': 0.076}
+sach 2 {'toi': 0.81, 'va': 0.163, 'het_gio': 0.027} {'toi': 0.635, 'va': 0.359, 'het_gio': 0.006}
+dr 0 {'toi': 0.886, 'va': 0.107, 'het_gio': 0.007} {'toi': 0.764, 'va': 0.233, 'het_gio': 0.003}
+dr 1 {'toi': 0.69, 'va': 0.237, 'het_gio': 0.073} {'toi': 0.583, 'va': 0.387, 'het_gio': 0.03}
+dr 2 {'toi': 0.871, 'va': 0.104, 'het_gio': 0.025} {'toi': 0.765, 'va': 0.217, 'het_gio': 0.018}
+bố cục minh hoạ: 29
+{'rong': 6.0, 'n_tia': 9, 'tam': 3.0, 'omega': [-1.5, 0.0, 1.5], 'v': 0.5, 'dt': 0.2, 'n_cn': 500, 'B': 64, 'n_seed': 3, 'so_tham_so': 5187, 'n_vao': 12, 'sim_sach': 85.7, 'that_sach': 70.5, 'that_sach_va': 26.2, 'sim_dr': 81.6, 'that_dr': 70.4, 'that_dr_va': 27.9, 'sim_sach_va': 12.5, 'hoc_dau': 0.0, 'hoc_cuoi': 82.8, 'bang_q_o': '10^12'}
+qd_chua_hoc [2, 2, 2, 2, 2, 2]
+qd_sach_sim [1, 1, 1, 1, 1, 1]
+qd_sach_that [1, 2, 2, 0, 1, 0]
+qd_dr_that [1, 1, 1, 1, 1, 1]

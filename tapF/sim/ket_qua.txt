@@ -1,0 +1,194 @@
+{
+ "rong": 12.0,
+ "dai": 8.0,
+ "dt": 0.1,
+ "phong": {
+  "khach": {
+   "ten": "phòng khách",
+   "o": [
+    0,
+    0,
+    6,
+    4
+   ]
+  },
+  "bep": {
+   "ten": "bếp",
+   "o": [
+    6,
+    0,
+    12,
+    4
+   ]
+  },
+  "ngu": {
+   "ten": "phòng ngủ",
+   "o": [
+    0,
+    4,
+    6,
+    8
+   ]
+  },
+  "lamviec": {
+   "ten": "phòng làm việc",
+   "o": [
+    6,
+    4,
+    12,
+    8
+   ]
+  }
+ },
+ "diem_lay": [
+  10.2,
+  1.7
+ ],
+ "nguoi_nhan": [
+  1.79,
+  4.77
+ ],
+ "dich": "ngu",
+ "phong_dau": "khach",
+ "t_trang_thai": {
+  "CHỜ LỆNH": 0.0,
+  "ĐỊNH VỊ": 1.1,
+  "ĐI LẤY": 13.2,
+  "DỪNG": 13.5,
+  "NHẬN ĐỒ": 37.8,
+  "ĐI GIAO": 39.8,
+  "TÌM NGƯỜI": 65.2,
+  "TIẾP CẬN": 65.4,
+  "GIAO": 69.6
+ },
+ "dung_doan": [
+  27.6,
+  28.8
+ ],
+ "k0": 4000,
+ "t_tong": 71.6,
+ "t_dinh_vi": 13.2,
+ "so_dung": 5,
+ "dung_t": [
+  13.5,
+  31.3
+ ],
+ "loi_dinh_vi_cm": 6.0,
+ "cam": {
+  "box": [
+   0.884,
+   0.211,
+   0.398,
+   0.21,
+   0.51
+  ],
+  "Z": 1.89,
+  "Z_that": 1.91,
+  "t": 65.4
+ },
+ "tk": {
+  "du": {
+   "n": 100,
+   "ok": 89,
+   "t_tb": 84.6,
+   "dung_tb": 14.9,
+   "loi_dinh_vi_cm": 4.3,
+   "ly_do": {
+    "đâm vào người": 6,
+    "đâm tường / đồ đạc": 2,
+    "không thấy người nhận": 2,
+    "hết giờ": 1
+   }
+  },
+  "khong_m1": {
+   "n": 100,
+   "ok": 0,
+   "t_tb": null,
+   "dung_tb": null,
+   "loi_dinh_vi_cm": null,
+   "ly_do": {
+    "đâm vào người": 3,
+    "đâm tường / đồ đạc": 97
+   }
+  },
+  "khong_m2": {
+   "n": 100,
+   "ok": 4,
+   "t_tb": 82.8,
+   "dung_tb": 19.5,
+   "loi_dinh_vi_cm": 4.1,
+   "ly_do": {
+    "giao sai chỗ": 88,
+    "đâm vào người": 5,
+    "đâm tường / đồ đạc": 2,
+    "hết giờ": 1
+   }
+  },
+  "khong_m3": {
+   "n": 100,
+   "ok": 7,
+   "t_tb": 79.5,
+   "dung_tb": 21.9,
+   "loi_dinh_vi_cm": null,
+   "ly_do": {
+    "hết giờ": 69,
+    "đâm tường / đồ đạc": 16,
+    "đâm vào người": 7,
+    "giao sai chỗ": 1
+   }
+  },
+  "khong_m4": {
+   "n": 100,
+   "ok": 9,
+   "t_tb": 64.1,
+   "dung_tb": 0.0,
+   "loi_dinh_vi_cm": 5.3,
+   "ly_do": {
+    "đâm vào người": 20,
+    "không thấy người nhận": 69,
+    "đâm tường / đồ đạc": 2
+   }
+  }
+ },
+ "k_hat": 1500,
+ "so_tia": 36,
+ "seed_minh_hoa": 11,
+ "trang_thai_minh_hoa": [
+  [
+   "CHỜ LỆNH",
+   1.1
+  ],
+  [
+   "ĐỊNH VỊ",
+   12.1
+  ],
+  [
+   "ĐI LẤY",
+   18.6
+  ],
+  [
+   "DỪNG",
+   6.0
+  ],
+  [
+   "NHẬN ĐỒ",
+   2.0
+  ],
+  [
+   "ĐI GIAO",
+   25.4
+  ],
+  [
+   "TÌM NGƯỜI",
+   0.2
+  ],
+  [
+   "TIẾP CẬN",
+   4.2
+  ],
+  [
+   "GIAO",
+   2.0
+  ]
+ ]
+}

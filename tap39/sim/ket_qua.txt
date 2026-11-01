@@ -1,0 +1,5 @@
+bấm ước lượng lệch 43 cm, 12°; hạt ban đầu σ ≈ 40 cm, số hạt 589 -> 501
+AMCL: sai số lần đầu 34.1 cm; < 10 cm lúc t = 2.0 s; trung bình khi chạy (t>2s) 4.3 cm, max 9.6 cm, góc TB 1.8°
+đường đầu tiên 10.94 m qua cửa dưới; t = 6.2 s đổi sang đường mới 11.22 m (robot cách cửa 2.15 m); số lần lập đường 35
+tới bếp sau 35.6 s, quãng đường 13.91 m, lệch đích 6.1 cm, va chạm 0, phục hồi 0
+odometry lúc tới nơi lệch 80 cm (AMCL lúc đó 4.8 cm)

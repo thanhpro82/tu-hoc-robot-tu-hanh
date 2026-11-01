@@ -1,0 +1,3 @@
+cg n 19583 TB lệch cm 5.5 %>15cm 2.7 %>20cm 0.4
+bc2 n 58144 TB lệch cm 6.5 %>15cm 6.6 %>20cm 2.4
+dag n 76579 TB lệch cm 5.9 %>15cm 2.4 %>20cm 0.3
