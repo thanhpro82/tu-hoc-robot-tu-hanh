@@ -68,7 +68,7 @@ python -X utf8 tap02/sim/robot_dau_tien.py     # thử tập 0.2: robot đầu t
 
 ## Danh sách tập
 
-📝 = có bài tập tự chấm và notebook Colab (9/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
+📝 = có bài tập tự chấm và notebook Colab (18/35 tập, đang bổ sung dần) · ▶️ = chạy mô phỏng, đổi tham số để khám phá
 
 ### Mùa 0 · Khởi động
 
@@ -93,15 +93,15 @@ python -X utf8 tap02/sim/robot_dau_tien.py     # thử tập 0.2: robot đầu t
 
 | Tập | Nội dung | Giáo trình | Học thế nào | Thư mục |
 |---|---|---|---|---|
-| **2.1** | Giác quan của robot | Ch.5 | ▶️ Chạy & đổi tham số | [`tap21/`](tap21/) |
-| **2.2** | Camera thực ra là cái hộp có lỗ | Ch.6 | ▶️ Chạy & đổi tham số | [`tap22/`](tap22/) |
-| **2.3** | Hiệu chỉnh camera bằng bàn cờ | Ch.6 | ▶️ Chạy & đổi tham số | [`tap23/`](tap23/) |
-| **2.4** | Hai mắt để đoán khoảng cách | Ch.7 | ▶️ Chạy & đổi tham số | [`tap24/`](tap24/) |
-| **2.5** | Dựng 3D từ ảnh chụp | Ch.7 | ▶️ Chạy & đổi tham số | [`tap25/`](tap25/) |
-| **2.6** | Thị giác máy tính cổ điển | Ch.8 | ▶️ Chạy & đổi tham số | [`tap26/`](tap26/) |
-| **2.7** | Deep learning nhìn thế giới thế nào | Ch.9 | ▶️ Chạy & đổi tham số | [`tap27/`](tap27/) |
-| **2.8** | YOLO: robot nhận ra người và đồ vật | Ch.10 | ▶️ Chạy & đổi tham số | [`tap28/`](tap28/) |
-| **2.9** | Tổng kết Mùa 2: robot đi theo bạn | Ch.5–10 | ▶️ Chạy & đổi tham số | [`tap29/`](tap29/) |
+| **2.1** | Giác quan của robot | Ch.5 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap21/tap21_cam_bien.ipynb) | [`tap21/`](tap21/) |
+| **2.2** | Camera thực ra là cái hộp có lỗ | Ch.6 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap22/tap22_camera.ipynb) | [`tap22/`](tap22/) |
+| **2.3** | Hiệu chỉnh camera bằng bàn cờ | Ch.6 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap23/tap23_hieu_chinh.ipynb) | [`tap23/`](tap23/) |
+| **2.4** | Hai mắt để đoán khoảng cách | Ch.7 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap24/tap24_stereo.ipynb) | [`tap24/`](tap24/) |
+| **2.5** | Dựng 3D từ ảnh chụp | Ch.7 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap25/tap25_sfm.ipynb) | [`tap25/`](tap25/) |
+| **2.6** | Thị giác máy tính cổ điển | Ch.8 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap26/tap26_do_vach.ipynb) | [`tap26/`](tap26/) |
+| **2.7** | Deep learning nhìn thế giới thế nào | Ch.9 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap27/tap27_cnn.ipynb) | [`tap27/`](tap27/) |
+| **2.8** | YOLO: robot nhận ra người và đồ vật | Ch.10 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap28/tap28_yolo.ipynb) | [`tap28/`](tap28/) |
+| **2.9** | Tổng kết Mùa 2: robot đi theo bạn | Ch.5–10 | 📝 Bài tập + tự chấm · [![Colab](https://img.shields.io/badge/Colab-mở-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/thanhpro82/tu-hoc-robot-tu-hanh/blob/main/tap29/tap29_di_theo.ipynb) | [`tap29/`](tap29/) |
 
 ### Mùa 3 · Định vị & bản đồ
 
