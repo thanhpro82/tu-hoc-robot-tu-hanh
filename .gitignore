@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 # file lớn tạo ra khi tự huấn luyện lại YOLO tập 2.8
 tap28/sim/ket_qua.pt
+# hình bạn tự vẽ khi làm bài tập
+ket_qua.png
